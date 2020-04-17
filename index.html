@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Project TRAL</title>
+    <link rel="stylesheet" type="text/css" href="data/css/style.css">
+    <link rel="shortcut icon" href="data/img/bit-decision-tree-2.png">
+</head>
+
+<body>
+    <div class="header">
+        <img src="data/img/bit-decision-tree-2.png" alt="">
+    </div>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Homepage</a>
+        <a href="code.php">New_Code</a>
+        <a href="#">Input_Link</a>
+    </div>
+    
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Menu</button>
+    </div> 
+    <h1>Welkom op de pagina van TRAL</h1>
+    
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+    
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+       
+</body>
+
+</html>
